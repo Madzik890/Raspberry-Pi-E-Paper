@@ -49,7 +49,7 @@ int main()
 		}
 		
 		m_scene->scene();//main loop the scene
-		usleep(10000);//waits 1 second to not waste CPU time
+		usleep(10000);//waits 0.01 second to not waste CPU time
 	}
 	
 	return 0;
